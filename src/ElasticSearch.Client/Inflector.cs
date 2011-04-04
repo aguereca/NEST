@@ -129,7 +129,7 @@ namespace ElasticSearch.Client
 		/// <returns></returns>
 		public static string MakePlural(this string word)
 		{
-			return ApplyRules(_plurals, word);
+			return word; //ApplyRules(_plurals, word);
 		}
 
 		/// <summary>
