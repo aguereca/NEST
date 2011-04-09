@@ -84,7 +84,7 @@ namespace ElasticSearch.Client
 		public string Type { get; internal set; }
 		[JsonProperty(PropertyName = "_id")]
 		public string Id { get; internal set; }
-                                   [JsonProperty(PropertyName = "fields")]
+		[JsonProperty(PropertyName = "fields")]
 		public T Fields { get; internal set; }
 	}
 }
